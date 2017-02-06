@@ -16,6 +16,12 @@ public class Service {
 		bookMap.put("harry", book3);
 	}
 	
+	public void addBook(String key, Book b) {
+		bookMap.put(key, b);
+	}
 	
-
+	public void removeBook(String key) {
+		bookMap.remove(key);		
+	}
+	
 }
